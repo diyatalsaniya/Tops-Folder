@@ -1,0 +1,2 @@
+This is Write Method.
+This is Append Method
