@@ -1,0 +1,235 @@
+C Language Developer -> Dennis Ritchie-1972
+
+
+-> What is Program:
+- It is a set of instructions.
+
+
+
+-> What is Programming:
+
+- To create a program.
+
+		
+
+-> Types of Programming Language:
+
+
+Procedural Programming - Ex: C language
+
+Object Oriented Programming - Ex: C++ language
+
+Logical Programming - Ex: Prolog language
+
+Functional Programming - Ex: Python language
+
+
+				
+-> World Wide Web - WWW
+
+- Known as a Web.
+- is a collection of websites or web pages stored in web servers.
+- connected to local computers through the internet.
+- These website contain text pages, digital images, audios, videos, etc.
+
+
+**************************************************************************
+
+
+17-7-24
+
+-> What are Protocols?
+
+- A network protocol is a group of rules accompanied by the network.
+- Network protocols will be formalized requirements and plans composed of rules, procedures, and types that describe devices over the network.
+
+
+
+-> Types of Protocols:
+1) HTTP or HTTPS.
+2) FTP (File Transfer protocols).
+3) Email protocols (CPOP3, SMTP).
+4) TCPC (Transmission control protocol) and UDPC (User Datagram Protocol).
+
+
+-> Application Security:
+
+- Application security refers to security precautions used at the application to prevent the theft or hijacking of data or code within the application.
+- It includes security concerns made during application development and design, as well as methods and procedures for protecting applications once they've been deployed.
+
+
+
+-> Types of Application Software: 
+1) Application Software - Ex: Paint, Power Point, etc.
+2) System Software - Ex: Notepad, Calculater, etc.
+3) Driver Software - Ex: Audio driver, Video driver, etc.
+4) Middleware Software - Ex: Database middleware, etc.
+5) Programming Software - Ex: Eclipse, Turbo C, etc.
+
+
+
+-> SDLC : Software Development Life Cycle
+
+1) Planning
+2) Analysis
+3) Designing
+4) Implementation
+5) Testing
+6) Maintenance
+
+
+***********************************************************************
+
+
+Value, Variable, Datatypes
+- a = 10
+- 10 is value
+- a is variable
+
+
+Datatypes:
+
+>> 2 Types: 
+
+1> Primitive - 
+int		%d		12345
+float		%f		12.485
+char		%c		a,i,t
+double		%lf		864513251351468454
+long double 	%Lf		4684531.8453143521
+
+
+2> Non-Primitive 
+string		%s		tcjhbkj
+Array 
+Class
+
+**************************************************************************
+
+
+-> Loop: It repeats till condition is satisfied it work
+
+
+>> 2 Types:
+1) Entry 
+	1. While Loop , 
+	2. For Loop
+2) Exit 
+	3. Do while
+
+- Difference between entry and exit loop - entry loop is first check condition and if condition is true than it starts
+					   exit loop is first run loop 1 time and then check condition and if condition is true than it starts
+
+
+>> 3 Steps:
+	1. Start
+	2. Stop
+	3. Increment
+
+
+**********************************************************************************************
+
+
+->> Control Statements:
+
+3 Types:
+
+- 1. break
+- 2. continue
+- 3. goto
+
+
+********************************************************************************************************
+
+
+-> Array: Collection of data.
+a[5] - It's specify size of a variable
+a[3][2] - It's specify size of row and column. In this 3 is a row size and 2 is a column size.
+
+
+
+**********************************************************************************************************
+
+
+->> Functions(Methods): Function is a block of code that we can use it again & again.
+
+>> 2 types of function :
+1. built in functions -> printf, scanf, gets, 
+2. user defined function -> there are 4 types of it - 1. Function without parameters and without return type
+						      2. Function with parameters and without return type
+						      3. Function without parameters and with return type
+						      4. Function with parameters and with return type
+
+There are 3 steps for function : 1. Function Declare (Which is not important)
+				 2. Function Definition 
+				 3. Function Calling (Execute) 
+
+************************************************************************************************************
+
+
+-> Structure: In this you have to create only one variable for multiple data
+
+In-build Methods: 
+- strcpy
+- strrev
+- strcat
+- strlen
+- struper
+- strlwr
+- strcmp
+
+-> Union - In this you have to create specify variable for each value 
+
+***********************************************************************************************************
+
+
+
+-> File Management : 
+
+3 steps:
+- open
+- content
+- close
+
+3 methods:
+1. write -> file create
+2. append -> add in existing file
+3. read -> read
+
+feof means end of the file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
