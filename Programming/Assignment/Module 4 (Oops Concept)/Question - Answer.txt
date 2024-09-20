@@ -1,0 +1,43 @@
+Q-1) What is OOP? List OOP concepts.
+Ans: Full Form : Object Oriented Programing  
+     Definition: Object-Oriented Programming (OOP) is a programming approach that uses objects and classe  to organize and manage code 				 efficiently.
+
+     List of concept: 
+	1. Class
+	2. Object
+	3. Inheritance
+	4. Polymorphism
+	5. Encapsulation
+	6. Abstraction
+	7. Constructor
+	8. Destructor
+
+
+
+************************************************************************************************************************************************
+
+Q-2) What is the difference between OOP and POP?
+Ans: OOP: 
+	- Object Oriented Programming. 
+	- This type of programming language uses objects and classes for creating models.
+	- Bottom-up approach
+	- Method overloading and overriding are used in OOP to achieve polymorphism.
+	- It's supports inheritance.
+	- C++, JAVA, C#, .NET.
+
+     POP:
+	- Procedural Oriented Programing. 
+	- This programming language uses a step-by step approach f or breaking down a task into a collection of routines and variables by 	       	  following a sequence of instructions.
+	- Top-down approach.
+	- It doesn’t support polymorphism.
+	- It's doesn't support inheritance.
+	-  C, FORTRAN.
+
+
+
+
+
+	
+	
+
+
