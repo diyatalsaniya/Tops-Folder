@@ -1,0 +1,18 @@
+Module 4 - Theory Questions
+---------------------------
+
+
+Q-1) Explain how the Navigator widget works in Flutter
+Ans: In Flutter, the "Navigator" widget acts as a central hub for managing navigation between different screens within your app, essentially maintaining a stack of "Route" objects where each route represents a single screen, allowing you to push new screens onto the stack to navigate forward and pop screens off the stack to navigate back; essentially mimicking a typical stack-based navigation pattern.
+
+
+
+
+Q-2) Describe the concept of named routes and their advantages over direct route navigation.
+Ans: A "named route" is a method in app development, particularly in frameworks like Flutter, where you assign a unique string identifier (a "name") to each navigation route, allowing you to navigate between screens in your app by referencing these names instead of directly managing complex route structures, which is significantly more organized and easier to maintain, especially in large applications compared to direct route navigation.
+
+
+
+
+Q-3) Explain how data can be passed between screens using route arguments
+Ans: When using route arguments, data is passed between screens by including additional information within the navigation command to a new screen, allowing the receiving screen to access and utilize this data based on the provided parameters in the route itself; essentially, you "attach" data to the route when navigating, which can then be retrieved on the destination screen to customize its behavior or display relevant information.
