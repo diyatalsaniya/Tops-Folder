@@ -1,0 +1,146 @@
+Module 5: 
+---------
+
+Que 1) Explain what state management is and why it’s important in Flutter applications.
+Ans -> State management is how we organize our app to most effectively access these objects and share them between different widgets. This page explores many aspects of state management, including: Using a StatefulWidget. Sharing state between widgets using constructors, InheritedWidget s, and callbacks.
+
+
+Que 2) Compare the different types of state management solutions in Flutter, like Provider, Riverpod, and Bloc.
+Ans -> In Flutter, Provider is considered a basic state management solution, ideal for smaller apps, while Riverpod builds upon Provider to offer more flexibility and advanced features, and Bloc is best suited for complex applications with intricate business logic due to its strict separation of concerns between UI and business logic; choosing the right one depends on your project's complexity and desired level of control over state management.
+
+
+Que 3) Describe the Provider package and how it differs from basic setState usage.
+Ans -> The Provider package in Flutter is a state management solution that allows you to centrally manage application state across different widgets within your app, making it accessible to any child widget that needs it, unlike basic setState which only updates the state within a single widget; Provider provides a more flexible and organized way to manage state especially in larger applications where data needs to be shared across multiple widgets.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Module 6:
+---------
+
+Que 1) Explain the structure and purpose of forms in Flutter.
+Ans -> A Flutter form is a conglomerate of multiple form fields, each with its own state and validation logic. The Form widget acts as a container for these form fields, managing their states collectively. Each form field has a corresponding state class that holds data related to that field.
+
+
+Que 2) Describe how controllers and listeners are used to manage form input.
+Ans -> Controllers (e.g., TextEditingController) are used to manage and manipulate form input values programmatically. They provide methods to read (controller.text), update (controller.text =), and clear input fields.
+Listeners are callbacks that trigger whenever the input value changes. You can add listeners to controllers using addListener() to react to user input dynamically, such as validating or updating UI elements in real time.
+Together, controllers and listeners help synchronize user input with application logic effectively.
+
+
+Que 3) List some common form validation techniques and provide examples.
+Ans -> Common Form Validation Techniques in Flutter:
+1. Required Field Validation: Ensures fields are not empty.  
+2. Length Validation: Checks if input meets minimum or maximum length requirements.  
+3. Email Validation: Verifies input follows a valid email format using regex.  
+4. Numeric Validation: Ensures input is a valid number.  
+5. Pattern Matching: Uses regex to validate custom formats (e.g., phone numbers).  
+6. Custom Validation: Implements specific business rules, like password complexity.
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Module 7: 
+---------
+
+Que 1) Explain what a RESTful API is and its importance in mobile applications.
+Ans -> A RESTful API is an architectural style for an application programming interface that uses HTTP requests to access and use data. That data can be used to GET , PUT , POST and DELETE data types, which refers to reading, updating, creating and deleting operations related to resources.
+
+
+Que 2) Describe how JSON data is parsed and used in Flutter
+Ans -> Basic JSON serialization in Flutter is very simple. Flutter has a built-in dart:convert library that includes a straightforward JSON encoder and decoder. The following sample JSON implements a simple user model. With dart:convert , you can serialize this JSON model in two ways.
+
+
+Que 3) Explain the purpose of HTTP methods (GET, POST, PUT, DELETE) and when to use each.
+Ans -> HTTP Methods (Short Explanation):
+
+1. GET:  
+   Retrieve data without modifying it (e.g., fetch user details).  
+
+2. POST: 
+   Create new resources (e.g., add a new user).  
+
+3. PUT: 
+   Update or replace existing resources (e.g., edit user details).  
+
+4. DELETE:  
+   Remove resources (e.g., delete a user).
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Module 8:
+---------
+
+
+Que 1) Explain the difference between local storage options (shared_preferences, SQLite, Hive).
+Ans -> Local Storage Options in Flutter:
+
+1. `shared_preferences`:  
+   - Key-value storage for simple data like settings or small preferences.  
+   - Not suitable for complex or large datasets.  
+
+2. `SQLite`:  
+   - Relational database for structured data with complex relationships.  
+   - Best for large datasets requiring queries.  
+
+3. `Hive`:  
+   - NoSQL database for fast, key-value storage.  
+   - Ideal for offline-first apps and unstructured data.  
+
+
+
+Que 2) Describe CRUD operations and how they are implemented in SQLite or Hive.
+Ans -> CRUD Operations in SQLite or Hive:
+
+1. Create:  
+   - Add new data to the database.  
+   - SQLite: `INSERT INTO table_name VALUES (...)`.  
+   - Hive: Use `box.put(key, value)`.
+
+2. Read:  
+   - Retrieve data from the database.  
+   - SQLite: `SELECT * FROM table_name`.  
+   - Hive: Use `box.get(key)` or `box.values`.
+
+3. Update:  
+   - Modify existing data.  
+   - SQLite: `UPDATE table_name SET column=value WHERE condition`.  
+   - Hive: Use `box.put(key, newValue)`.
+
+4. Delete:  
+   - Remove data from the database.  
+   - SQLite: `DELETE FROM table_name WHERE condition`.  
+   - Hive: Use `box.delete(key)`.
+
+
+
+Que 3) Explain the advantages and use cases for shared_preferences.
+Ans -> **Advantages of `shared_preferences`:**
+
+1. Easy to Use: Simple API for reading and writing key-value pairs.  
+2. Lightweight: Ideal for storing small amounts of data like user preferences or app settings.  
+3. Persistent Storage: Data persists across app restarts.  
+4. No Boilerplate Code: Requires minimal setup compared to databases.  
+
+**Use Cases for `shared_preferences`:**
+
+1. User Settings: Storing theme preferences, language, or notification settings.  
+2. Authentication: Saving tokens or login states.  
+3. Basic App Data: Caching small, non-relational data like user onboarding completion status.  
+4. Feature Toggles: Managing flags to enable or disable app features.
+
+
+
+
+
+
+
+
+
