@@ -1,0 +1,22 @@
+Theory Question Answers:
+------------------------
+
+
+Q-1) Explain the purpose of Firebase and list its core services.
+Ans: Firebase is a backend-as-a-service (BaaS) platform by Google that provides tools and infrastructure to help developers build, manage, and scale applications efficiently. It offers various core services, including Authentication for secure user sign-ins, Firestore and Realtime Database for cloud-based NoSQL storage, and Cloud Storage for handling user-generated content like images and videos. Additionally, Firebase provides Cloud Functions for serverless backend logic, Hosting for deploying web applications, and Crashlytics for real-time crash reporting. Other key services include Firebase Cloud Messaging (FCM) for push notifications and Analytics for tracking app performance and user engagement.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Q-2) Describe Firebase Authentication and its use cases in Flutter applications.
+Ans: Firebase Authentication is a service that enables secure user authentication in applications by providing various sign-in methods, including email/password, phone number, and third-party providers like Google, Facebook, and Apple. It simplifies user identity management, ensuring security and seamless integration with Firebase’s other services.  
+
+In Flutter applications, Firebase Authentication is commonly used for user registration and login, enabling features like social media authentication, password recovery, and multi-factor authentication. It is particularly useful in apps that require user accounts, such as e-commerce platforms, social networking apps, and cloud-based storage solutions. By integrating Firebase Authentication, developers can enhance user experience while ensuring robust security with minimal backend setup.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Q-3) Explain how Firestore differs from traditional SQL databases.
+Ans: Firestore is a NoSQL cloud database that differs from traditional SQL databases in structure, scalability, and data handling. Unlike SQL databases, which use tables and rows, Firestore stores data in flexible collections and documents. It supports real-time data synchronization and automatic scaling, making it ideal for dynamic applications. Unlike SQL databases that require complex joins, Firestore uses denormalized data and hierarchical structures for faster queries. While SQL databases are better for complex transactions and structured data, Firestore excels in handling unstructured or semi-structured data with high scalability and offline support.
