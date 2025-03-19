@@ -1,0 +1,25 @@
+Theory Questions:
+-----------------
+
+Q-1) Explain the app release process for both iOS and Android platforms.
+Ans: The app release process for **iOS and Android** involves several steps to ensure the app is production-ready.  
+
+For Android: Developers first configure the app, update the version number in `pubspec.yaml`, and generate a signed APK or **App Bundle (AAB)** using `flutter build apk --release` or `flutter build appbundle`. The signed build is then uploaded to the **Google Play Console**, where testing is conducted before final submission for review and release.  
+
+For iOS: Developers need a **Mac with Xcode** to build and archive the app. The app must be signed with a provisioning profile and Apple Developer certificate. After testing using **TestFlight**, the app is uploaded to the **App Store Connect**, where it undergoes Apple's review process before being published on the **App Store**.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Q-2) Describe the steps involved in generating app bundles and APKs for deployment.
+Ans: To generate **App Bundles (AABs) and APKs** for deployment in Flutter, the first step is to prepare the app by ensuring all dependencies are updated and setting the correct version in `pubspec.yaml`. For Android, the app must be signed with a keystore, which can be generated using the `keytool` command and configured in `key.properties`. Once the signing setup is complete, an APK can be built using the command `flutter build apk --release`, which produces a production-ready APK. To optimize the APK size, developers can generate separate APKs for different device architectures using `flutter build apk --split-per-abi`. For Google Play distribution, an **App Bundle (AAB)** is required, which can be created using `flutter build appbundle`. After generating the APK or AAB, testing is essential, either by installing the APK on a physical device using `flutter install` or by uploading the AAB to Google Play Console for internal testing. Once testing is complete, the AAB is submitted to Google Play for review and release, ensuring a smooth deployment process.
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Q-3) Outline the best practices for submitting apps to the App Store and Google Play.
+Ans: Submitting apps to the **App Store and Google Play** requires following best practices to ensure approval and a smooth user experience. For both platforms, developers should thoroughly test the app, optimize performance, and follow platform-specific guidelines. On **Google Play**, ensure the app is signed with a production keystore and generate an **App Bundle (AAB)** using `flutter build appbundle`. Developers should create a **detailed store listing**, including a compelling description, high-quality screenshots, and a feature graphic. It's also important to comply with **Google’s content policies**, enable **Play App Signing**, and conduct internal testing before submission.  
+
+For the **App Store**, developers need a **Mac with Xcode** and must sign the app with an **Apple Developer account**. The app should pass **TestFlight** testing before being submitted via **App Store Connect**. Apple enforces strict guidelines, so developers must follow **Human Interface Guidelines**, avoid crashes, and provide detailed metadata, including an accurate app description and privacy policies. Additionally, ensuring that the app works on all supported iOS devices and properly handling user permissions enhances the chances of approval. By following these best practices, developers can successfully publish their apps while maintaining high quality and compliance.
