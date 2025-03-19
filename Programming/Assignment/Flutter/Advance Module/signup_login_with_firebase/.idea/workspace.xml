@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7187d3e1-937e-40fb-8692-a2598b7ec8da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/A+.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/A-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/AB+.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/AB-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/B+.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/B-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/O+.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/O-.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/blood_dot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/donate_girl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/home_img1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/home_img2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/home_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/sign_in.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/assets/images/sign_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Add Donor Page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/BloodRequestModel.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Donar Details.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/DonorDetailsModel.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Home Page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Navigation Drawer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Request Page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Sign In.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Sign Up Page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../chatting_app/lib/Main File.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Home Page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Sign In.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Sign Up Page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../splashscreen_app/assets/images/girl_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../splashscreen_app/lib/Home Page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../splashscreen_app/lib/SplashScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_bloc_app/lib/app.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_bloc_app/lib/counter/counter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_bloc_app/lib/counter/cubit/counter_cubit.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_bloc_app/lib/counter/view/counter_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_bloc_app/lib/counter/view/counter_view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_bloc_app/lib/counter/view/view.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_bloc_app/lib/counter_observer.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/lib/Google SignIn.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/form_practice_with_firebase/lib/Main Page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/hotel_design_task/assets/images/hotel_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/hotel_design_task/assets/images/resort_img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/hotel_design_task/lib/Hotel UI.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/image_and_camera/lib/multiple.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Check Auth.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Forget Pass.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Home.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Login.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/Sign Up.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/UserModel.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/UserModel.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Assesment/Flutter/blood_bank_management/windows/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/lib/HomePage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/lib/HomePage.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/lib/Login Page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/lib/Login Page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/lib/Sign Up.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/lib/Sign Up.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Class Work/Flutter/flutter_firebase/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;diyatalsaniya&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/diyatalsaniya/Tops-Folder.git&quot;,
+    &quot;accountId&quot;: &quot;f08b17ee-b18a-4bfe-a1cb-c5d8691535a4&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2tDs0mddMD5JfNDberPP7GpymtV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flutter.main.dart.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "io.flutter.reload.alreadyRun": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Tops-Folder/Programming/Assignment/Flutter/Advance Module/signup_login_with_firebase",
+    "settings.editor.selected.configurable": "MTFeaturesSettingsConfigurable",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Tops-Folder\Programming\Assignment\Flutter\Advance Module\signup_login_with_firebase\lib" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7187d3e1-937e-40fb-8692-a2598b7ec8da" name="Changes" comment="" />
+      <created>1739897767704</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739897767704</updated>
+    </task>
+    <servers />
+  </component>
+</project>
