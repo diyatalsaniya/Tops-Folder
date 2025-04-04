@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "23267778597",
+    "project_id": "tea-diary-app",
+    "storage_bucket": "tea-diary-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:23267778597:android:b5d95ac0162f9a98d4dfcc",
+        "android_client_info": {
+          "package_name": "com.example.tea_diary_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD3TXbgQ0ZZZ5yFvw0PK68Yd0PR3-rbj4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
